@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+                              /* Header */
+
+.header {
+    text-align: center;
+}
+
+.header-text {
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 2rem;
+    padding: 40px;
+
+}
+
+.image {
+    width: 30px;
+    height: 1.7rem;
+}
+
+                              /* Container Starts */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    
+}
+
+                
+                            /* image and name  */
+
+.Myself {
+  position: relative;
+  background-color: #e9e8e8;
+  box-shadow: 10px 5px 93px -21px rgba(0,0,0,0.57);
+-webkit-box-shadow: 10px 5px 93px -21px rgba(0,0,0,0.57);
+-moz-box-shadow: 10px 5px 93px -21px rgba(0,0,0,0.57);
+ 
+}
+
+.my-image{
+    position: relative;
+    box-sizing: border-box; 
+}
+.my-image-jpg {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    border: 2px solid black;
+    padding: 5px;
+    height: 120px;
+    width: 115px;
+}
+
+.my-image .my-image-name {
+    font-family: cursive;
+    position: absolute;
+    left: 19%;
+    top: 30%;
+}
+
+                                /* contact me  */
+
+.contact-info{
+    position: relative;
+    background-color: #e9e8e8;
+    box-shadow: 10px 5px 93px -21px rgba(0,0,0,0.57);
+-webkit-box-shadow: 10px 5px 93px -21px rgba(0,0,0,0.57);
+-moz-box-shadow: 10px 5px 93px -21px rgba(0,0,0,0.57);
+}
+
+.contact ul{
+    position: absolute;
+    top: 14%;
+    left: 1%;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.contact ul li{
+    padding: 5px;
+}
+
+.contact .info{
+    position: absolute;
+    top: 14%;
+    left: 40%;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+                            
+                        /* carrer objective */
+
+.carrer {
+    background-color: coral;
+    grid-column: 1 / span 2;
+}
+
+                    /* Skills */
+
+.skills{
+    background-color: rgb(253, 152, 0);
+}
+
+                    /* HOBBIES */
+
+.hobbies {
+    background-color: cyan;
+}
+
+                        /* academics */
+
+
+.academics{
+    background-color: royalblue;
+    grid-column: 1 / span 2;
+}
+
+
+                    /* awards and certificate */
+
+.awards {
+    background-color: salmon;
+    grid-column: 1 / span 2;
+}
+
+
+
+                    /* footer  */
+
+.footer{
+    background-color: rgb(14, 9, 9);
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
